@@ -76,11 +76,29 @@ git clone https://github.com/YOUR_USERNAME/llm-from-scratch.git
 cd llm-from-scratch
 ```
 
-### 2. Install dependencies
+### 2. Install Dependencies
+
+Install the required Python packages:
 
 ```bash
-pip install torch datasets tqdm
+pip install matplotlib numpy pylzma ipykernel jupyter
 ```
+
+### 3. Install PyTorch with CUDA Support
+
+Do **not** use:
+
+```bash
+pip install torch
+```
+
+Instead, install the CUDA-enabled version of PyTorch from the official PyTorch website:
+
+🔗 https://pytorch.org/get-started/locally/
+
+**Purpose:**
+- Enable GPU acceleration for model training and inference.
+- Significantly reduce training time compared to CPU execution.
 
 ### 3. Prepare the data
 
