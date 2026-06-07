@@ -2,8 +2,8 @@
 model-01.pkl
 
 # Generated data files (too large)
-openwebtext/output_train.txt
-openwebtext/output_val.txt
+openwebtext/train_split.txt
+openwebtext/val_split.txt
 
 # Python cache
 __pycache__/
