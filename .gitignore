@@ -1,0 +1,15 @@
+# Model checkpoint (too large for GitHub)
+model-01.pkl
+
+# Generated data files (too large)
+openwebtext/output_train.txt
+openwebtext/output_val.txt
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
