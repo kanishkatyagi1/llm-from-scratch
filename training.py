@@ -215,10 +215,10 @@ class GPTLanguageModel(nn.Module):
             index = torch.cat((index, index_next), dim=1)
         return index
 model = GPTLanguageModel(vocab_size)
-print("loading model parameters...")
-with open('model-01.pkl', 'rb') as f:
-    model = pickle.load(f)
-print("loading successfully!")
+# print("loading model parameters...")
+# with open('model-01.pkl', 'rb') as f:
+#     model = pickle.load(f)
+# print("loading successfully!")
 m = model.to(device)
 
 
