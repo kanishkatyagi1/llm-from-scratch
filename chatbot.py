@@ -15,7 +15,7 @@ args = parser.parse_args()
 print(f"batch size: {args.batch_size}")
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-batch_size = args.batch_size
+batch_size = int(args.batch_size)
 block_size = 64
 max_iters = 200
 learning_rate = 3e-4
